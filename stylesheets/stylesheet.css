@@ -1,5 +1,6 @@
 html {
   font-size: 18px;
+  clear: both;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -11,6 +12,7 @@ header {
   padding-bottom: 1.5rem;
   padding-top: 1rem;
   margin-top: -1.3rem;
+  height: 10rem;
 }
 nav {
   background-color: gray;
@@ -27,13 +29,13 @@ aside {
   border: solid;
   border-width: .1rem;
   width: 18rem;
-  height: 30.7rem;
+  height: 29rem;
   float: right;
-  margin-top: -28.5rem; 
+  margin-top: -25.5rem; 
 }
 .container {
   width: 780px;
-  margin-left: 25rem;
+  margin-left: 21.5rem;
 }
 .red-link {
   color: red;
@@ -41,11 +43,7 @@ aside {
 a {
   color:purple;
 }
-.cta {
-  float: right;
-  margin-top: -7rem;
-  margin-right: 2rem;
-}
+
 footer {
   padding-left: .7rem;
   padding-top: 1rem;
@@ -53,7 +51,7 @@ footer {
   color: white;
   margin-top: 5.8rem;
   line-height: .2rem;
-  height: 9rem;
+  height: 8rem;
 }
 figure {
   padding-left: 1.5rem;
@@ -94,4 +92,12 @@ nav a {
 }
 .no-space {
   word-spacing: normal;
+}
+.head {
+  margin-top: 4.5rem;
+}
+.cta {
+  float: right;
+  margin-top: -8rem;
+  margin-right: 2rem;
 }
