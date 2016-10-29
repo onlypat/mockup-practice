@@ -24,19 +24,24 @@ article {
   width: 22.6rem;
   padding-top: 1rem;
   letter-spacing: .01rem;
+  float: right;
 }
 aside {
   border: solid;
   border-width: .1rem;
   width: 18rem;
-  height: 29rem;
-  float: right;
-  margin-top: -25.5rem; 
+  height: 29.9rem;
+  float: left;
+  margin-top: -30.5rem;
+  background-color: #663399;
+  color: white;
 }
+
 .container {
   width: 780px;
   margin-left: 21.5rem;
 }
+
 .red-link {
   color: red;
 }
@@ -49,15 +54,10 @@ footer {
   padding-top: 1rem;
   background-color: black;
   color: white;
-  margin-top: 5.8rem;
   line-height: .2rem;
-  height: 8rem;
+  height: 9.2rem;
 }
-.disclaimer {
-  text-align: center;
-  margin-top: -5rem;
-  height: 0;
-}
+
 figure {
   padding-left: 1.5rem;
 }
@@ -75,7 +75,7 @@ aside p {
 .odin {
   float: right;
   margin-right: .5rem;
-  margin-top: -1.5rem;
+  margin-top: -1rem;
 }
 .first-h2-aside {
     margin-top: -.5rem;
@@ -101,4 +101,19 @@ nav a {
   float: right;
   margin-top: -8rem;
   margin-right: 2rem;
+}
+main {
+  background-color: lightgrey;
+  height: 32rem;
+}
+.disclaimer {
+  text-align: center;
+  clear: both;
+}
+.disclaimer2 {
+   text-align: center;
+  clear: both;
+}
+.dollar {
+  margin-left: -3em;
 }
