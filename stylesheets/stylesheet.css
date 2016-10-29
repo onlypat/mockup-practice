@@ -1,0 +1,97 @@
+html {
+  font-size: 18px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: black;
+  color:white;
+  padding-left: 1.2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  margin-top: -1.3rem;
+}
+nav {
+  background-color: gray;
+  padding: .7rem;
+  margin-top: -1.3rem;
+}
+article {
+  padding-left: .7rem;
+  width: 22.6rem;
+  padding-top: 1rem;
+  letter-spacing: .01rem;
+}
+aside {
+  border: solid;
+  border-width: .1rem;
+  width: 18rem;
+  height: 30.7rem;
+  float: right;
+  margin-top: -28.5rem; 
+}
+.container {
+  width: 780px;
+  margin-left: 25rem;
+}
+.red-link {
+  color: red;
+}
+a {
+  color:purple;
+}
+.cta {
+  float: right;
+  margin-top: -7rem;
+  margin-right: 2rem;
+}
+footer {
+  padding-left: .7rem;
+  padding-top: 1rem;
+  background-color: black;
+  color: white;
+  margin-top: 5.8rem;
+  line-height: .2rem;
+  height: 9rem;
+}
+figure {
+  padding-left: 1.5rem;
+}
+figure h2 {
+  padding-bottom:0;
+  margin-bottom: .5rem;
+}
+aside h2, h3 {
+  text-align: center;
+}
+aside p {
+  padding-left: .5rem;
+  margin-top: -.5rem;
+}
+.odin {
+  float: right;
+  margin-right: .5rem;
+  margin-top: -1.5rem;
+}
+.first-h2-aside {
+    margin-top: -.5rem;
+}
+summary {
+  text-align: center;
+  margin-top: 2rem;
+}
+.subhead {
+  color: gray;
+  margin-top: -1rem;
+}
+nav {
+  word-spacing: 2rem;
+  font-size: 1.1rem;
+}
+nav a {
+  margin-left: .9rem;
+}
+.no-space {
+  word-spacing: normal;
+}
